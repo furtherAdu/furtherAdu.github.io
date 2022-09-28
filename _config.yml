@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Adu Matory, Data Scientist for Mental Health
+name: Adu Matory
+title: Adu Matory | Working in Mental Health
 email: adu.matory@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Data Scientist | Harm Reductionist | Clinical Researcher | Mental Health Advocate | Computational Neuroscience MSc
-baseurl: furtheradu.github.io  # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: https://furtheradu.github.io # the base hostname & protocol for your site, e.g. http://example.com
 github_username: furtherAdu
-name: Adu Matory
-markdown: kramdown
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+markdown: kramdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -52,3 +52,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+permalink: /blog/:year/:month/:day/:title
