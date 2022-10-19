@@ -1,4 +1,4 @@
-## Website Layout
+## Desired Website Layout
 - Single scrolling page
 - Sections: About, Services, CV, Publications (instead of Blog)[https://inespereira.com/](https://inespereira.com/)
 - "Publications" subsections: Blog, Academic
@@ -9,7 +9,7 @@
 - CV opens in a new tab  [https://jacekbajor.com/](https://jacekbajor.com/)  
 - No pop-up cookies banner when navigating to site
 
-## Style
+## Desired Style
 ### General
 - Dark and light mode  [https://haveagreatdata.com/](https://haveagreatdata.com/)  
 - For light mode: light text on dark, but colorful background  [https://chrismathys.com/](https://chrismathys.com/)  
@@ -29,3 +29,7 @@
 - Academic publications with figure thumbnails https://lnobis.github.io/homepage/#publications
 - Zig zag narrative, with cascading descriptions that branch off a central vertical 
 [https://www.thedatascienceworldtour.com/](https://www.thedatascienceworldtour.com/)  
+
+
+## Resources for Development
+- [300+ Landing Page Examples](https://www.btw.so/marketing/landing-page-examples)
