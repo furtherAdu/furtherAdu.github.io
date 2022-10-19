@@ -8,6 +8,7 @@
 - Clearly delineated Mondrian sections with gestalt in shapes  [https://www.oii.ox.ac.uk/people/profiles/fabian-stephany](https://www.oii.ox.ac.uk/people/profiles/fabian-stephany)  
 - CV opens in a new tab  [https://jacekbajor.com/](https://jacekbajor.com/)  
 - No pop-up cookies banner when navigating to site
+- ** :) :) :) Olá! Daqui Rita! I found this free website https://preview.uideck.com/items/saaspal/ that has a similar template (inc. certain elements). We could maybe use it's code as foundation for yours. Lmk wyt
 
 ## Content
 ### Services (in Q&A format)
