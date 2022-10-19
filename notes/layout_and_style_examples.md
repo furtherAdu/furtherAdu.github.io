@@ -9,6 +9,49 @@
 - CV opens in a new tab  [https://jacekbajor.com/](https://jacekbajor.com/)  
 - No pop-up cookies banner when navigating to site
 
+## Content
+### Services (in Q&A format)
+#### Multimodal Data Analysis 
+    Q: Looking for key insights in your organization's data to drive crticial decisions?
+    A: I can help you find actionable trends in your disparate data sources
+
+#### Software Engineering
+	Q: Need help implementing your software project?
+	A: I'll help you build your next data pipeline with machine learning and advanced statistics
+
+#### Data Strategy
+	Q: Not sure how to leverage the power of your data?
+	A: Work with me to model your data processes and identify use cases that will be valuable to your organization's stakeholders
+		
+#### Technical Due Diligence
+	Q: Want to ensure potential new tech will get the job done?
+	A: I'll dive deep on the latest literature and tech specifications so you have everything you need to move forward.
+
+#### Study Design
+	Q: Want to explore your latest hypothesis?
+	A: I'll help you design a study that's feasible, ethical, and worth it.
+
+#### Manuscript Editing
+	Q: Want an extra set of eyes on your upcoming article submission?
+	A: I can help you proofread and turn your scientific prose into poetry.
+
+#### Public Speaking
+	Q: Want an expert in computational methods for mental health research to speak at your next event?
+	A: I'm available for conferences, retreats, panels, and more.
+
+### About
+- Few-line impact statement on landing page [https://fpetzschner.com/](https://fpetzschner.com/)  
+    - Two-sentence intro:  e.g. "Freelance data scientist and harm reductionist. I help organizations use data to...  create healing experiences/better understand mental health."  [https://www.michael-gramlich.com/](https://www.michael-gramlich.com/)
+    - 3-sentence intro: who I am, what I do, how I do it   [https://alexeygrigorev.com/cv](https://alexeygrigorev.com/cv)  -> maybe unnecessary with the 
+- Name near impact statement, in smaller font
+- Short, one-line descriptions of work experiences most relevant to data science projects I aspire to work on
+- Hyperlinks from one-line descriptions to more details on CV 
+- Tags under each experience blurb [https://jacekbajor.com/](https://jacekbajor.com/)
+  1. language
+  2. packages
+  3. models used
+  4. research focus
+
 ## Desired Style
 ### General
 - Dark and light mode  [https://haveagreatdata.com/](https://haveagreatdata.com/)  
@@ -29,6 +72,7 @@
 - Academic publications with figure thumbnails https://lnobis.github.io/homepage/#publications
 - Zig zag narrative, with cascading descriptions that branch off a central vertical 
 [https://www.thedatascienceworldtour.com/](https://www.thedatascienceworldtour.com/)  
+- Hover effect (#10 & 19 here [https://techknowprime.com/css-card-hover-effects/](https://techknowprime.com/css-card-hover-effects/))
 
 
 ## Resources for Development
