@@ -45,13 +45,41 @@
     - Two-sentence intro:  e.g. "Freelance data scientist and harm reductionist. I help organizations use data to...  create healing experiences/better understand mental health."  [https://www.michael-gramlich.com/](https://www.michael-gramlich.com/)
     - 3-sentence intro: who I am, what I do, how I do it   [https://alexeygrigorev.com/cv](https://alexeygrigorev.com/cv)  -> maybe unnecessary with the 
 - Name near impact statement, in smaller font
-- Short, one-line descriptions of work experiences most relevant to data science projects I aspire to work on
-- Hyperlinks from one-line descriptions to more details on CV 
-- Tags under each experience blurb [https://jacekbajor.com/](https://jacekbajor.com/)
+
+### CV
+- Short, one-line descriptions of a few notable projects
+- (tentative) Hyperlinks from notable projects to more details on CV 
+- Tags (below) next to experience blurb & publication [https://jacekbajor.com/](https://jacekbajor.com/)
   1. language
   2. packages
   3. models used
   4. research focus
+
+### Publications
+#### NBS-Predict: A Prediction-based Extension of the Network-based Statistic
+- Serin E, Zalesky A, **Matory A**, et al.
+- *Neuroimage*, Dec 2021
+- https://www.sciencedirect.com/science/article/pii/S1053811921008983
+
+#### Electrocerebral Signature of Cardiac Death
+- **Matory A**, Alkhachroum A, Chiu WT, et al.
+- *Neurocritical Care*, Jun 2021
+- https://link.springer.com/article/10.1007/s12028-021-01233-0
+
+#### Quantifying perceptual efficiency of data visualizations
+- Sven O, **Matory A**, & Rolfs M.
+- *TeaP Conference of  Experimental Psychologists* (Abstract), Mar 2020
+- https://www.psycharchives.org/en/item/7925c9c3-693d-4a32-86e4-fc1d7182573c
+
+#### Detection of Brain Activation in Unresponsive Patients with Acute Brain Injury
+- Claassen J, Doyle K, **Matory A**, et al.
+- *New England Journal of Medicine*, Jun 2019
+- https://www.nejm.org/doi/10.1056/NEJMoa1812757
+
+#### Deep structural brain lesions associated with consciousness impairment early after hemorrhagic stroke
+- Rohaut B, Reynolds A, Igwe K,...**Matory A**, et al. 
+- *Scientific Reports*, March 2019
+- https://www.nature.com/articles/s41598-019-41042-2
 
 ## Desired Style
 ### General
