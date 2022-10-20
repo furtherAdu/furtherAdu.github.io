@@ -94,14 +94,15 @@
 - Color-coded tags for experience blurbs [https://jacekbajor.com/](https://jacekbajor.com/)  
 ### Services
 - Services offered in boxes aligned horizontally, max 3 to a row [https://www.thedatascienceworldtour.com/services](https://www.thedatascienceworldtour.com/services) 
-- PNG Icons next to services offered  [https://www.michael-gramlich.com/](https://www.michael-gramlich.com/]
+- PNG Icons next to services offered  https://www.michael-gramlich.com/
 - 'Services' boxes that flip or have other interactive elements  
-[https://lnobis.github.io/homepage/#interests](https://lnobis.github.io/homepage/#interests)  
+[https://lnobis.github.io/homepage/#interests](https://lnobis.github.io/homepage/#interests)
+- Flip card effect https://codepen.io/JeremyWink/pen/oNvybqX
 ### Publications
 - Academic publications with figure thumbnails https://lnobis.github.io/homepage/#publications
 - Zig zag narrative, with cascading descriptions that branch off a central vertical 
 [https://www.thedatascienceworldtour.com/](https://www.thedatascienceworldtour.com/)  
-- Hover effect (#10 & 19 here [https://techknowprime.com/css-card-hover-effects/](https://techknowprime.com/css-card-hover-effects/))
+- Hover effect [https://codepen.io/Gelsot/pen/xpGYyd](https://codepen.io/Gelsot/pen/xpGYyd)
 
 
 ## Resources for Development
