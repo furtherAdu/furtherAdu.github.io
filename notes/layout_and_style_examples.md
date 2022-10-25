@@ -46,7 +46,7 @@
     - 3-sentence intro: who I am, what I do, how I do it   [https://alexeygrigorev.com/cv](https://alexeygrigorev.com/cv)  -> maybe unnecessary with the 
 - Name near impact statement, in smaller font
 
-I have 7 years of academic research and software development experience in psychiatry, neurology, and computational neuroscience As a seasoned machine learning engineer, I specialize in neurocognitive biomarker discovery, data strategy, and advanced statistical modeling. I'm skilled at project management, experimental study design, and exploring new technologies to drive the development of mental health services.
+I have 7 years of academic research and software development experience in psychiatry, neurology, and computational neuroscience. As a seasoned machine learning engineer, I specialize in neurocognitive biomarker discovery, data strategy, and advanced statistical modeling. I'm skilled at project management, experimental study design, and exploring new technologies to drive the development of mental health services.
 
 ### CV
 - Short, one-line descriptions of a few notable projects
