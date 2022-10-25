@@ -31,6 +31,7 @@ github_username: furtherAdu
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 markdown: kramdown
 
 # Exclude from processing.
