@@ -1,1 +1,27 @@
-<svg height="517" viewBox="0 0 1692 517" width="1692" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="a"><path d="m159 5841h1692v517h-1692z"/></clipPath><linearGradient id="b" gradientUnits="objectBoundingBox" x1=".404" x2=".411" y1="-.343" y2=".819"><stop offset="0" stop-color="#737dfc"/><stop offset="1" stop-color="#5864ff"/></linearGradient><g clip-path="url(#a)" transform="translate(-159 -5841)"><path d="m-52.41 1302c62.21-79.011 157.84-232.31 251.61-305.49 347.561-270.678 504.052 31.946 1066.283-204.393 356.452-149.838 405.56 239.187 393.783 508.735z" fill="#5864ff" transform="translate(190 5091)"/><path d="m-113.148 1297.79c-41.4-185.711 96.459-247.977 228.027-344.267 255.548-186.624 370.256-9.856 783.643-172.8s264.57 517.071 264.57 517.071z" fill="#fff" opacity=".05" transform="translate(515.633 5267.644)"/><path d="m1181.684 1297.789c41.4-185.71-96.459-247.977-228.027-344.266-255.548-186.623-370.257-9.856-783.643-172.804s-264.57 517.07-264.57 517.07z" fill="url(#b)" transform="translate(633.633 5267.644)"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1692 517" style="enable-background:new 0 0 1692 517;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000121268824969839179930000008937682772340701321_);}
+	.st1{fill:#705CFF;}
+	.st2{opacity:5.000000e-02;fill:#FFFFFF;enable-background:new    ;}
+	.st3{fill:#FF5AA5;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="1692" height="517"/>
+	</defs>
+	<clipPath id="SVGID_00000074434449254178643940000003356821066000156312_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g transform="translate(-159 -5841)" style="clip-path:url(#SVGID_00000074434449254178643940000003356821066000156312_);">
+		<path class="st1" d="M137.6,6393c62.2-79,157.8-232.3,251.6-305.5c347.6-270.7,504.1,31.9,1066.3-204.4
+			c356.5-149.8,405.6,239.2,393.8,508.7L137.6,6393z"/>
+		<path class="st2" d="M402.5,6565.4c-41.4-185.7,96.5-248,228-344.3c255.5-186.6,370.3-9.9,783.6-172.8s264.6,517.1,264.6,517.1
+			L402.5,6565.4z"/>
+		<path class="st3" d="M1815.3,6565.4c41.4-185.7-96.5-248-228-344.3c-255.5-186.6-370.3-9.9-783.6-172.8
+			c-413.4-162.9-264.6,517.1-264.6,517.1H1815.3z"/>
+	</g>
+</g>
+</svg>
