@@ -766,7 +766,7 @@ p {
 .hero-section {
   position: relative;
   z-index: 1;
-  padding: 160px 0 50px;
+  padding: 60px 0 50px;
   background-image: url("../img/hero/hero-bg-pink.svg");
   background-position: top center;
   background-repeat: no-repeat;
