@@ -767,7 +767,7 @@ p {
   position: relative;
   z-index: 1;
   padding: 160px 0 50px;
-  background-image: url("../img/hero/hero-bg-pink.svg"); //* dont know why but when i edit this .svg file on Indesign, it shows up on the website eather much much larger or not at all. Need to look up how to do this properly  ---- if i change the original  *//
+  background-image: url("../img/hero/hero-bg-pink.svg");
   background-position: top center;
   background-repeat: no-repeat;
 }
