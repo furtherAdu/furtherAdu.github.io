@@ -54,9 +54,9 @@ I am a data scientist with 7+ years of academic research and software developmen
 - Short, one-line descriptions of a few notable projects
 - (tentative) Hyperlinks from notable projects to more details on CV 
 - Tags (below) next to experience blurb & publication [https://jacekbajor.com/](https://jacekbajor.com/)
-  1. language
-  2. packages
-  3. models used
+  1. language 
+  2. packages 
+  3. models used 
   4. research focus
 
 ### Publications
