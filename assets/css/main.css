@@ -339,6 +339,51 @@ p {
     transform: translateY(30px);
   }
 }
+/* TAG */
+.tag {
+    width:auto;
+    height:25px;
+    overflow: hidden;
+    border-radius: 1em;
+    display: inline-block;
+    padding: 0 10px;
+    margin: 2px;
+    border-style: solid;
+    border-width: thin;
+}
+.tag p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  vertical-align: middle; /* text is not perfectly aligned vertically*/
+}
+
+.language {
+    background-color: #FEDED1;
+    color: #FF7339;
+    border-color: #FF7339;
+}
+
+.packages {
+    background-color: #FEE2E2;
+    color: #FD4660;
+    border-color: #FD4660;
+}
+
+.models {
+    background-color: #FEDFAD;
+    color: #EF9300;
+    border-color: #EF9300;
+}
+
+.research {
+    background-color: #FEF3C7;
+    color: #DA9534;
+    border-color: #DA9534;
+}
+
 
 /*===== All Preloader Style =====*/
 .preloader {
