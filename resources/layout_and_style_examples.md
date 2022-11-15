@@ -111,9 +111,3 @@ I am a data scientist with 7+ years of academic research and software developmen
 
 ## Resources for Development
 - [300+ Landing Page Examples](https://www.btw.so/marketing/landing-page-examples)
-
-## Notes for Rita
-(Nov 10, 2022)
-- Experience section should have title of project, organization, and date in one column (right-indented), and the project description in another columns (left indented)
-- The titles should be right-indented when image is on the right, and the same for left
-- Tags should have border and font the same color, with the background being brighter
