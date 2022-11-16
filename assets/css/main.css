@@ -341,13 +341,13 @@ p {
 }
 /* TAG */
 .tag {
-    width:auto;
-    height:25px;
-    overflow: hidden;
-    border-radius: 1em;
-    display: inline-block;
     padding: 0 10px;
     margin: 2px;
+    width:auto;
+    height:25px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 1em;
     border-style: solid;
     border-width: thin;
 }
@@ -357,7 +357,8 @@ p {
   line-height: 26px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  vertical-align: middle; /* text is not perfectly aligned vertically*/
+  vertical-align: middle;  /* text is not perfectly aligned vertically*/
+
 }
 
 .language {
@@ -1113,6 +1114,13 @@ p {
 }
 
 /* ===== publications css ====== */
+
+.txtright{
+    text-align: right;
+}
+
+
+
 .publications-section {
   position: relative;
   z-index: 1;
