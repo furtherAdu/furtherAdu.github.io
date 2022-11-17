@@ -385,6 +385,10 @@ p {
     border-color: #DA9534;
 }
 
+/* email obfuscation */
+.obfuscate span {
+    display: none;
+}
 
 /*===== All Preloader Style =====*/
 .preloader {
