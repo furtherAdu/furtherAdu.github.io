@@ -714,7 +714,7 @@ p {
 .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: #fff;
+  background-color: #162447;
   display: block;
   margin: 5px 0;
   position: relative;
@@ -771,7 +771,7 @@ p {
 .navbar-nav .nav-item a {
   font-size: 18px;
   font-weight: 400;
-  color: #fff;
+  color: #162447;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 10px 0;
@@ -841,7 +841,7 @@ p {
 .hero-section .hero-content h1 {
   font-size: 60px;
   margin-bottom: 35px;
-  color: #fff;
+  color: #00000;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -872,7 +872,7 @@ p {
   margin-bottom: 40px;
   font-size: 18px;
   line-height: 28px;
-  color: #fff;
+  color: #162447;
 }
 
 @media only screen and (min-width: 1400px) {
@@ -888,8 +888,8 @@ p {
 }
 
 .hero-section .hero-content .main-btn {
-  border-color: #fff;
-  color: #fff;
+  border-color: #162447;
+  color: #162447;
 }
 
 .hero-section .hero-content .main-btn::after {
