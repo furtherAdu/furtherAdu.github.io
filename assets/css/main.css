@@ -1123,8 +1123,6 @@ p {
     text-align: right;
 }
 
-
-
 .publications-section {
   position: relative;
   z-index: 1;
@@ -1276,6 +1274,96 @@ p {
     text-align: top;
 }
 
+.projects-section {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .projects-section.pt-150 {
+    padding-top: 100px;
+  }
+}
+
+.projects-section .projects-img {
+  position: relative;
+  z-index: 1;
+  padding: 75px 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+  .projects-section .projects-img {
+    margin-bottom: 70px;
+  }
+}
+
+.projects-section .projects-img .shape {
+  position: absolute;
+  z-index: -1;
+}
+
+.projects-section .projects-img .shape.shape-1 {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: -70px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .projects-section .projects-img .shape.shape-1 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-section .projects-img .shape.shape-1 {
+    width: 70%;
+  }
+}
+
+.projects-section .projects-img .shape.shape-2 {
+  bottom: 0;
+  right: 50px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .projects-section .projects-img .shape.shape-2 {
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .projects-section .projects-img .shape.shape-2 {
+    right: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects-section .projects-img .shape.shape-2 {
+    bottom: 30px;
+  }
+}
+
+.projects-section .projects-content ul li {
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #162447;
+  margin-bottom: 25px;
+  position: absolute;
+}
+
+.projects-section .projects-content ul li::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #705cff;
+  position: absolute;
+  left: 0;
+  top: 6.5px;
+  -webkit-box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
+  box-shadow: 0px 14px 15px rgba(78, 110, 241, 0.26);
 
 /* ======= subscribe css ======= */
 @media (max-width: 767px) {
