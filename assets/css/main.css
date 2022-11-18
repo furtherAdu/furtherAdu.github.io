@@ -817,7 +817,7 @@ p {
   position: relative;
   z-index: 1;
   padding: 60px 0 50px;
-  background-image: url("../img/hero/hero-bg-pink.svg");
+  background-image: url("../img/hero/hero-bg-pale.svg");
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -1269,6 +1269,14 @@ p {
   margin: 0 auto;
 }
 
+/* ======= Experience section css ======= */
+
+
+.txt-top{
+    text-align: top;
+}
+
+
 /* ======= subscribe css ======= */
 @media (max-width: 767px) {
   .subscribe-section .section-title h2 {
@@ -1376,7 +1384,7 @@ p {
 
 /* ======= footer css ======= */
 .footer {
-  background-image: url("../img/footer/footer-bg_pink.svg");
+  background-image: url("../img/footer/footer-bg_pale.svg");
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
