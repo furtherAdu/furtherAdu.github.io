@@ -37,3 +37,4 @@
 ## Resources for Development
 - [300+ Landing Page Examples](https://www.btw.so/marketing/landing-page-examples)
 - ** :) :) :) Olá! Daqui Rita! I found this free website https://preview.uideck.com/items/saaspal/ that has a similar template (inc. certain elements). We could maybe use it's code as foundation for yours. Lmk wyt
+- Email obfuscation (https://perishablepress.com/best-method-for-email-obfuscation/)
