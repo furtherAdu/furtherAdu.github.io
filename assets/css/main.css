@@ -1217,8 +1217,13 @@ p {
 
 /* ====== feature-extended css ====== */
 .feature-extended-section .feature-extended-wrapper {
-  padding: 70px 0;
+  padding: 50px 0;
   background: rgba(88, 100, 255, 0.1);
+}
+
+.feature-extended-section .feature-extended-wrapper-alt{
+  padding: 50px 0;
+  background: FFFFFF;
 }
 
 .feature-extended-section .single-feature-extended {
@@ -1269,8 +1274,7 @@ p {
 
 /* ======= Experience section css ======= */
 
-
-.txt-top{
+.txt-right{
     text-align: top;
 }
 
