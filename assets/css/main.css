@@ -1119,7 +1119,7 @@ p {
 
 /* ===== publications css ====== */
 
-.txtright{
+.txt-right{
     text-align: right;
 }
 
@@ -1273,10 +1273,6 @@ p {
 }
 
 /* ======= Experience section css ======= */
-
-.txt-right{
-    text-align: top;
-}
 
 .projects-section {
   position: relative;
