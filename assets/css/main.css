@@ -48,7 +48,7 @@ button:focus,
 }
 
 a:hover {
-  color: #705cff;
+  color: #F69770;
 }
 
 a {
@@ -237,7 +237,7 @@ p {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   border: none;
-  background: #705cff;
+  background: #F69770;
   overflow: hidden;
 }
 
@@ -246,9 +246,9 @@ p {
 }
 
 .main-btn.border-btn {
-  border: 2px solid #705cff;
+  border: 2px solid #F69770;
   background: transparent;
-  color: #705cff;
+  color: #F69770;
 }
 
 .btn-hover {
@@ -281,7 +281,7 @@ p {
 .scroll-top {
   width: 45px;
   height: 45px;
-  background: #705cff;
+  background: #F69770;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,7 +467,7 @@ p {
   height: 100%;
   border-style: solid;
   /* Spinner Color */
-  border-color: #705cff #705cff #ddd;
+  border-color: #F69770 #F69770 #ddd;
   border-radius: 50%;
   border-width: 6px;
 }
@@ -902,8 +902,8 @@ p {
   height: 40px;
   border-radius: 50%;
   background: #fff;
-  border: 3px solid #705cff;
-  color: #705cff;
+  border: 3px solid #F69770;
+  color: #F69770;
   left: 15px;
   bottom: 0;
   z-index: 9;
@@ -985,7 +985,7 @@ p {
   height: 130px;
   border-radius: 50%;
   background: rgba(88, 100, 255, 0.1);
-  color: #705cff;
+  color: #F69770;
   margin: auto;
   margin-bottom: 30px;
   font-size: 65px;
@@ -1070,7 +1070,7 @@ p {
 }
 
 .box-style .content a.main-btn.border-btn:hover {
-  color: #705cff;
+  color: #F69770;
 }
 
 .box-style .content a.main-btn.border-btn:hover::after {
@@ -1090,15 +1090,15 @@ p {
 }
 
 .box-style.color-2 {
-  border-color: #705cff;
+  border-color: #F69770;
 }
 
 .box-style.color-2 .icon {
-  color: #705cff;
+  color: #F69770;
 }
 
 .box-style.color-2 .content a:hover {
-  color: #705cff;
+  color: #F69770;
 }
 
 .box-style.color-2 .content .main-btn:hover {
@@ -1209,7 +1209,7 @@ p {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: #705cff;
+  background: #F69770;
   position: absolute;
   left: 0;
   top: 6.5px;
@@ -1243,7 +1243,7 @@ p {
   font-size: 65px;
   line-height: 1;
   margin-bottom: 30px;
-  color: #705cff;
+  color: #F69770;
 }
 
 .feature-extended-section .single-feature-extended .content h3 {
@@ -1367,7 +1367,7 @@ p {
     position: static;
     margin-top: 20px;
     background: #fff;
-    color: #705cff;
+    color: #F69770;
     padding: 17.5px 35px;
   }
 }
@@ -1377,14 +1377,14 @@ p {
     position: absolute;
     margin-top: 0px;
     color: #fff;
-    background: #705cff;
+    background: #F69770;
     padding: 17.5px 25px;
   }
 }
 
 /* ======= footer css ======= */
 .footer {
-  background-image: url("../img/footer/footer-bg_pale.svg");
+  background-image: url("../img/footer/footer-bg_pink.svg");
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
@@ -1400,7 +1400,7 @@ p {
 @media (max-width: 767px) {
   .footer {
     padding-top: 120px;
-    background: #705cff;
+    background: #F69770;
   }
 }
 
@@ -1446,7 +1446,7 @@ p {
 }
 
 .footer .widget-wrapper .footer-widget .socials li a:hover {
-  color: #705cff;
+  color: #F69770;
   background: #fff;
 }
 
