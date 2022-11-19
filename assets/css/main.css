@@ -1472,7 +1472,7 @@ p {
 
 /* ======= footer css ======= */
 .footer {
-  background-image: url("../img/footer/footer-bg_pale");
+  background-image: url("../img/footer/footer-bg_pale.svg");
   background-size: cover;
   background-position: top right;
   padding-top: 260px;
