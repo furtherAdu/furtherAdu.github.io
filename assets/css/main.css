@@ -108,7 +108,7 @@ h1 {
 }
 
 .subsection-color {
-  color:#6c6c6c
+  color:#6c6c6c;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -1378,6 +1378,12 @@ p {
   background-position: top right;
   padding-top: 260px;
   margin-top: 100px;
+}
+
+.credit {
+    text-align: center;
+    font-size: 10px;
+    color: #6c6c6c;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
