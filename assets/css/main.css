@@ -1399,7 +1399,6 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,239,255,1) 
 @media (max-width: 767px) {
   .footer {
     padding-top: 120px;
-    background: #F69770;
   }
 }
 
