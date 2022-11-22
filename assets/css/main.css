@@ -107,6 +107,10 @@ h1 {
   font-size: 45px;
 }
 
+.subsection-color {
+  color:#6c6c6c
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .section-title h2 {
     font-size: 40px;
@@ -685,6 +689,7 @@ p {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 20px 0;
+  float: left;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
