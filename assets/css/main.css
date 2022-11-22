@@ -967,6 +967,7 @@ p {
   }
 }
 
+
 /* ====== feature css ====== */
 @media (max-width: 767px) {
   .feature-section.pt-120 {
@@ -1223,12 +1224,14 @@ p {
 /* ====== feature-extended css ====== */
 .feature-extended-section .feature-extended-wrapper {
   padding: 50px 0;
-  background: rgba(88, 100, 255, 0.1);
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,239,255,1) 9%, rgba(238,239,255,1) 85%, rgba(255,255,255,1) 100%);
+  /*background: rgba(88, 100, 255, 0.1); */
 }
 
 .feature-extended-section .feature-extended-wrapper-alt{
   padding: 50px 0;
-  background: FFFFFF;
+  background: #FFFFFF;
 }
 
 .feature-extended-section .single-feature-extended {
