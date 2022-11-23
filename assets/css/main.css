@@ -1380,8 +1380,8 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,239,255,1) 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-top: 260px;
-  margin-top: -90px;
+  padding-top: 300px;
+  margin-top: -160px;
 }
 
 .credit {
