@@ -1380,8 +1380,8 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,239,255,1) 
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  padding-top: 300px;
-  margin-top: -160px;
+  padding-top: 320px;
+  margin-top: -100px;
 }
 
 .credit {
@@ -1390,15 +1390,17 @@ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(238,239,255,1) 
     color: #6c6c6c;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (max-width: 767px) {
   .footer {
-    padding-top: 250px;
+    padding-top: 220px;
+    margin-top: -80px;
   }
 }
 
-@media (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer {
-    padding-top: 120px;
+    padding-top: 220px;
+    margin-top: -80px;
   }
 }
 
