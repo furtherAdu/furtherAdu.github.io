@@ -1328,6 +1328,11 @@ p {
  -webkit-transform: rotateY(-180deg)
 }
 
+.btn-outline-secondary, .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited {
+    background-color: #F69770 !important;
+    color: #FFFFFF !important;
+    border-color: #FFFFFF !important;
+}
 /* ======= Experience section css ======= */
 
 .projects-section {
