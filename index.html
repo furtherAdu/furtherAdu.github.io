@@ -19,12 +19,45 @@
     <link rel="stylesheet" href="assets/css/lineicons.css" />
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      _paq.push(['trackVisibleContentImpressions']);
+      _paq.push(['trackEvent', 'Scroll_depth', '98%']);
+      // accurately measure the time spent in the visit; necessary for one-page visits
+      _paq.push(['enableHeartBeatTimer']);
+      (function() {
+        var u="https://adumatory.matomo.cloud/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='//cdn.matomo.cloud/adumatory.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Matomo Code -->
+
   </head>
   <body>
 
-  <!--social media bar start -->
-  <div class="sr-sharebar sr-sb-vl sr-sb-right"><div class="socializer a sr-32px sr-circle sr-opacity sr-vertical sr-icon-white sr-bdr-sm sr-bdr-dark sr-bg-dark sr-pad"><span class="sr-linkedin"><a href="https://linkedin.com/in/adu-matory-b8659887" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></span><span class="sr-github"><a href="https://github.com/furtherAdu/" target="_blank" title="Github"><i class="fab fa-github"></i></a></span><span class="sr-google"><a href="https://scholar.google.com/citations?user=QF8qRlcAAAAJ" target="_blank" title="Google"><i class="fab fa-google"></i></a></span></div></div>
-  <!--social media end-->
+    <!--social media bar start -->
+    <div class="sr-sharebar sr-sb-vl sr-sb-right">
+        <div class="socializer a sr-32px sr-circle sr-opacity sr-vertical sr-icon-white sr-bdr-sm sr-bdr-dark sr-bg-dark sr-pad">
+          <span class="sr-linkedin"><a href="https://linkedin.com/in/adu-matory-b8659887" target="_blank" title="LinkedIn"><i class="fab fa-linkedin matomo_link"></i></a></span>
+          <span class="sr-github"><a href="https://github.com/furtherAdu/" target="_blank" title="Github"><i class="fab fa-github matomo_link"></i></a></span>
+          <span class="sr-google"><a href="https://scholar.google.com/citations?user=QF8qRlcAAAAJ" target="_blank" title="Google"><i class="fab fa-google matomo_link"></i></a></span>
+        </div>
+    </div>
+    <!--social media end-->
+
+    <!-- Matomo Image Tracker-->
+    <noscript>
+      <img referrerpolicy="no-referrer-when-downgrade" src="https://adumatory.matomo.cloud/matomo.php?idsite=1&amp;rec=1&amp;action_name=home" style="border:0" alt="" />
+    </noscript>
+    <!-- End Matomo -->
 
     <!--[if lte IE 9]>
       <p class="browserupgrade">
@@ -177,7 +210,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">I can help you find actionable trends to drive critical decisions.</p>
-                        <a href="mailto:adu.matory+dataanalysis@gmail.com?subject=Inquiry&#58%20Data%20Analysis&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+dataanalysis@gmail.com?subject=Inquiry&#58%20Data%20Analysis&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Data Analysis']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -204,7 +237,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">Use my expertise in statistics & ML to build a powerful analytics pipeline.</p>
-                        <a href="mailto:adu.matory+softwareengineering@gmail.com?subject=Inquiry&#58%20Software%20Engineering&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+softwareengineering@gmail.com?subject=Inquiry&#58%20Software%20Engineering&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Software Engineering']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -231,7 +264,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">Work with me to identify use cases and solutions that will unlock new value for your organization.</p>
-                        <a href="mailto:adu.matory+datastrategy@gmail.com?subject=Inquiry&#58%20Data%20Strategy&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+datastrategy@gmail.com?subject=Inquiry&#58%20Data%20Strategy&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Data Strategy']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -258,7 +291,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">I'll dive deep on the literature, getting you the costs, benefits, and risks you need to make an informed decision.</p>
-                        <a href="mailto:adu.matory+technicalduediligence@gmail.com?subject=Inquiry&#58%20Technical%20Due%20Diligence&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+technicalduediligence@gmail.com?subject=Inquiry&#58%20Technical%20Due%20Diligence&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Technical Due Diligence']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -285,7 +318,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">I'll help you formulate a study that's feasible, ethical, and worth it.</p>
-                        <a href="mailto:adu.matory+studydesign@gmail.com?subject=Inquiry&#58%20Study%20Design&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+studydesign@gmail.com?subject=Inquiry&#58%20Study%20Design&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Study Design']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -312,7 +345,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">I can help you proofread, format and turn your scientific prose into poetry.</p>
-                        <a href="mailto:adu.matory+manuscriptediting@gmail.com?subject=Inquiry&#58%20Manuscript%20Editing&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+manuscriptediting@gmail.com?subject=Inquiry&#58%20Manuscript%20Editing&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Manuscript Editing']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -339,7 +372,7 @@
                       </div>
                       <div class="card-body px-0">
                         <p class="card-text">I'm available for conferences, retreats, workshops, and more.</p>
-                        <a href="mailto:adu.matory+publicspeaking@gmail.com?subject=Inquiry&#58%20Public%20Speaking&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3">Reach out</a>
+                        <a href="mailto:adu.matory+publicspeaking@gmail.com?subject=Inquiry&#58%20Public%20Speaking&body=I&#39m%20interested%20in%20your%20services&#33" class="btn btn-outline-secondary mt-3" onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Public Speaking']);">Reach out</a>
                       </div>
                     </div>
                   </div>
@@ -846,7 +879,7 @@
                   href="assets/CV/Matory Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="main-btn btn-hover border-btn wow fadeInUp"
+                  class="main-btn btn-hover border-btn wow fadeInUp matomo_download"
                   data-wow-delay=".4s"
                   >Discover More
               </a>
