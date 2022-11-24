@@ -1312,6 +1312,12 @@ p {
   }
 }
 
+@media only screen and (min-width: 481px) {
+  .flip-card-inner {
+    min-height: 290px;
+  }
+}
+
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(-180deg);
