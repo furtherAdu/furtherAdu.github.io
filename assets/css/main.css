@@ -245,6 +245,18 @@ p {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 480px) {
+  .main-btn{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .main-btn{
+    white-space: normal;
+  }
+}
+
 .main-btn:hover {
   color: #fff;
 }
