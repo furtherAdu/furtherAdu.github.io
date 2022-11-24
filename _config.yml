@@ -24,7 +24,7 @@ email: adu.matory@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Data Scientist | Harm Reductionist | Clinical Researcher | Mental Health Advocate | Computational Neuroscience MSc
 baseurl: / # the subpath of your site, e.g. /blog
-url: https://furtheradu.github.io # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.adumatory.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: furtherAdu
 
 # Build settings
