@@ -18,13 +18,13 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
-    if (window.pageYOffset > sticky) {
-      header_navbar.classList.add("sticky");
-      logo.src = "assets/img/logo/logo-2.svg";
-    } else {
-      header_navbar.classList.remove("sticky");
-      logo.src = "assets/img/logo/logo.svg";
-    }
+//    if (window.pageYOffset > sticky) {
+//      header_navbar.classList.add("sticky");
+//      logo.src = "assets/img/logo/logo-2.svg";
+//    } else {
+//      header_navbar.classList.remove("sticky");
+//      logo.src = "assets/img/logo/logo.svg";
+//    }
 
     // show or hide the back-top-top button
     const backToTo = document.querySelector(".scroll-top");
