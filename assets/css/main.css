@@ -1287,9 +1287,7 @@ p {
   font-weight: 400;
   line-height: 28px;
 }
-#last-row-services {
-  margin: 0 auto;
-}
+
 
 /* ======== Flip card css =========*/
 .flip-card {
@@ -1302,7 +1300,6 @@ p {
   text-align: left;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  min-height: 250px;
   box-sizing: border-box;
 }
 
@@ -1314,9 +1311,16 @@ p {
 
 @media only screen and (min-width: 481px) {
   .flip-card-inner {
-    min-height: 290px;
+    min-height: 320px;
   }
 }
+
+.collapse.show {
+    -webkit-transition-delay: .1s;
+    transition-delay: .1s;
+    visibility: visible;
+}
+
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {

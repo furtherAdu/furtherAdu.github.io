@@ -18,14 +18,6 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
-//    if (window.pageYOffset > sticky) {
-//      header_navbar.classList.add("sticky");
-//      logo.src = "assets/img/logo/logo-2.svg";
-//    } else {
-//      header_navbar.classList.remove("sticky");
-//      logo.src = "assets/img/logo/logo.svg";
-//    }
-
     // show or hide the back-top-top button
     const backToTo = document.querySelector(".scroll-top");
     if (
@@ -94,4 +86,91 @@
 
   // WOW active
   new WOW().init();
+
+  /* On DOM load... */
+  document.addEventListener("DOMContentLoaded", function() {
+
+  /* Set the height of all elements with partial id servicesCardCol to the max height of all elements of partial ids servicesCardBack and servicesCardFront (including padding & border). */
+    var servicesCols = document.querySelectorAll('[id^="servicesCardCol"]');
+    var servicesCardSides = document.querySelectorAll('[id^="servicesCardBack"], [id^="servicesCardFront"]');
+    var collapsedMaxHeight = 0;
+
+    for (var i = 0; i < servicesCardSides.length; i++) {
+        if (servicesCardSides[i].offsetHeight > collapsedMaxHeight) {
+          collapsedMaxHeight = servicesCardSides[i].offsetHeight;
+      }
+    }
+
+    /* Set px spacing between cards */
+    var offset = 20
+
+    for (var i = 0; i < servicesCols.length; i++) {
+      servicesCols[i].style.height = collapsedMaxHeight + offset + 'px';
+    }
+
+    /* Dynamically update the size of elements with partial id servicesCardCol on click of the respective element with partial serviceExampleButton */
+    for (let i = 0; i < servicesCols.length; i++) {
+
+      /* Index card column, back, button, and example */
+      let idx = i + 1;
+      let servicesCol = document.getElementById('servicesCardCol' + idx)
+      let cardBack = document.getElementById('servicesCardBack' + idx)
+      let button = document.getElementById('servicesExampleButton' + idx);
+      let example = document.getElementById('servicesExample' + idx);
+      let timesShown = 0
+      let uncollapsedHeight = 0
+
+      /* Define func to adjust height */
+      function adjustHeight(height_dif) {
+        /* Update col height with new height of card back, but smoothly */
+        height_dif += offset
+        sign = Math.sign(height_dif)
+        delay = .7
+        for (let j=0; j < Math.ceil(Math.abs(height_dif)); j++){
+           /* Add a delay */
+           setTimeout(function() {
+           servicesCol.style.height = servicesCol.offsetHeight + sign + 'px';
+           }, delay * j);
+        }
+      }
+
+      /* Create collapsible instance */
+      let bsCollapse = new bootstrap.Collapse(example)
+
+      example.addEventListener('shown.bs.collapse', function() {
+        /* if first time shown, calculate height */
+        if (timesShown == 0) {
+            uncollapsedHeight = cardBack.offsetHeight;
+            timesShown += 1
+            bsCollapse.toggle()
+        }
+       });
+
+      example.addEventListener('hide.bs.collapse', function() {
+        button.innerHTML = "See an example";
+        console.log("HIDE -- times shown: " + timesShown + "uncollapsedHeight:" + uncollapsedHeight + "collapsedMaxheight:" + collapsedMaxHeight)
+        adjustHeight(collapsedMaxHeight - servicesCol.offsetHeight)
+      });
+
+      /* Expand and collapse collapsible to calculate height */
+      bsCollapse.toggle()
+
+      /* On click... */
+      example.addEventListener('show.bs.collapse', function() {
+        button.innerHTML = "Hide example";
+        console.log("SHOW -- times shown: " + timesShown + "uncollapsedHeight:" + uncollapsedHeight + "collapsedMaxheight:" + collapsedMaxHeight)
+        adjustHeight(uncollapsedHeight - servicesCol.offsetHeight)
+       });
+
+      /* After mouse leaves column... */
+      servicesCol.addEventListener('mouseleave', function() {
+        if (button.innerHTML == "Hide example") {
+            bsCollapse.toggle()
+            }
+        });
+
+    }
+
+  });
+
 })();
