@@ -18,14 +18,6 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
-//    if (window.pageYOffset > sticky) {
-//      header_navbar.classList.add("sticky");
-//      logo.src = "assets/img/logo/logo-2.svg";
-//    } else {
-//      header_navbar.classList.remove("sticky");
-//      logo.src = "assets/img/logo/logo.svg";
-//    }
-
     // show or hide the back-top-top button
     const backToTo = document.querySelector(".scroll-top");
     if (
@@ -94,4 +86,72 @@
 
   // WOW active
   new WOW().init();
+
+  /* On DOM load... */
+  document.addEventListener("DOMContentLoaded", function() {
+
+  /* Set the height of all elements with partial id servicesCardCol to the max height of all elements of partial ids servicesCardBack and servicesCardFront (including padding & border). */
+    var servicesCols = document.querySelectorAll('[id^="servicesCardCol"]');
+    var servicesCardSides = document.querySelectorAll('[id^="servicesCardBack"], [id^="servicesCardFront"]');
+    var servicesCardMaxHeight = 0;
+
+    for (var i = 0; i < servicesCardSides.length; i++) {
+        if (servicesCardSides[i].offsetHeight > servicesCardMaxHeight) {
+          servicesCardMaxHeight = servicesCardSides[i].offsetHeight;
+      }
+    }
+
+    var offset = 20
+    for (var i = 0; i < servicesCols.length; i++) {
+      servicesCols[i].style.height = servicesCardMaxHeight + offset + 'px';
+    }
+
+    /* Dynamically update the size of elements with partial id servicesCardCol on click of the respective element with partial serviceExampleButton */
+    for (let i = 0; i < servicesCols.length; i++) {
+
+      /* Index card column, back, button, and example */
+      let idx = i + 1;
+      let servicesCol = document.getElementById('servicesCardCol' + idx)
+      let cardBack = document.getElementById('servicesCardBack' + idx)
+      let button = document.getElementById('servicesExampleButton' + idx);
+      let example = document.getElementById('servicesExample' + idx);
+
+      /* Define func to adjust height */
+      function adjustHeight(height_dif) {
+        /* Update col height with new height of card back, but smoothly */
+        sign = Math.sign(height_dif)
+        delay = .7
+        for (let j=0; j < Math.ceil(Math.abs(height_dif)); j++){
+           /* Add a delay */
+           setTimeout(function() {
+           servicesCol.style.height = servicesCol.offsetHeight + sign + 'px';
+           }, delay * j);
+        }
+      }
+
+      /* On click... */
+      example.addEventListener('show.bs.collapse', function() {
+        button.innerHTML = "Hide example";
+        });
+
+      example.addEventListener('shown.bs.collapse', function() {
+        adjustHeight(cardBack.offsetHeight + offset - servicesCol.offsetHeight)
+        });
+
+      example.addEventListener('hide.bs.collapse', function() {
+        button.innerHTML = "See an example";
+        adjustHeight(servicesCardMaxHeight + offset - servicesCol.offsetHeight)
+        });
+
+      /* After mouse leaves column... */
+      servicesCol.addEventListener('mouseleave', function() {
+        if (button.innerHTML == "Hide example") {
+            button.click()
+            }
+        });
+
+    }
+
+  });
+
 })();
