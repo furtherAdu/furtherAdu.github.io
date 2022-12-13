@@ -1337,14 +1337,10 @@ p {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  /* background-color: #bbb;
-  color: black; */
 }
 
 /* Style the back side */
 .flip-card-back {
-  /* background-color: dodgerblue;
-  color: white; */
   -ms-transform: rotateY(180deg); /* IE 9 */
   -webkit-transform: rotateY(180deg); /* Chrome, Safari, Opera, Android, Chrome */
   transform: rotateY(180deg);
