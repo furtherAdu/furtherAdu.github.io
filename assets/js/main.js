@@ -18,6 +18,12 @@
     const sticky = header_navbar.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
+    if (window.pageYOffset > sticky) {
+      header_navbar.classList.add("sticky");
+    } else {
+      header_navbar.classList.remove("sticky");
+    }
+
     // show or hide the back-top-top button
     const backToTo = document.querySelector(".scroll-top");
     if (
