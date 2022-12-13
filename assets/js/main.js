@@ -92,21 +92,9 @@
 
   /* Set the height of all elements with partial id servicesCardCol to the max height of all elements of partial ids servicesCardBack and servicesCardFront (including padding & border). */
     var servicesCols = document.querySelectorAll('[id^="servicesCardCol"]');
-    var servicesCardSides = document.querySelectorAll('[id^="servicesCardBack"], [id^="servicesCardFront"]');
-    var collapsedMaxHeight = 0;
-
-    for (var i = 0; i < servicesCardSides.length; i++) {
-        if (servicesCardSides[i].offsetHeight > collapsedMaxHeight) {
-          collapsedMaxHeight = servicesCardSides[i].offsetHeight;
-      }
-    }
 
     /* Set px spacing between cards */
     var offset = 20
-
-    for (var i = 0; i < servicesCols.length; i++) {
-      servicesCols[i].style.height = collapsedMaxHeight + offset + 'px';
-    }
 
     /* Dynamically update the size of elements with partial id servicesCardCol on click of the respective element with partial serviceExampleButton */
     for (let i = 0; i < servicesCols.length; i++) {
@@ -115,6 +103,7 @@
       let idx = i + 1;
       let servicesCol = document.getElementById('servicesCardCol' + idx)
       let cardBack = document.getElementById('servicesCardBack' + idx)
+      let collapsedHeight = cardBack.offsetHeight
       let button = document.getElementById('servicesExampleButton' + idx);
       let example = document.getElementById('servicesExample' + idx);
       let timesShown = 0
@@ -148,8 +137,7 @@
 
       example.addEventListener('hide.bs.collapse', function() {
         button.innerHTML = "See an example";
-        console.log("HIDE -- times shown: " + timesShown + "uncollapsedHeight:" + uncollapsedHeight + "collapsedMaxheight:" + collapsedMaxHeight)
-        adjustHeight(collapsedMaxHeight - servicesCol.offsetHeight)
+        adjustHeight(collapsedHeight - servicesCol.offsetHeight)
       });
 
       /* Expand and collapse collapsible to calculate height */
@@ -158,7 +146,6 @@
       /* On click... */
       example.addEventListener('show.bs.collapse', function() {
         button.innerHTML = "Hide example";
-        console.log("SHOW -- times shown: " + timesShown + "uncollapsedHeight:" + uncollapsedHeight + "collapsedMaxheight:" + collapsedMaxHeight)
         adjustHeight(uncollapsedHeight - servicesCol.offsetHeight)
        });
 
