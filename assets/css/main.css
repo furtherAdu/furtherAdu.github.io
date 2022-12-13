@@ -701,7 +701,6 @@ p {
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   padding: 20px 0;
-  float: left;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
