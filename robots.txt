@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/CV/Matory_Resume.pdf
+
+Sitemap: /sitemap.xml
