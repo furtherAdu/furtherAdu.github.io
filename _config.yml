@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-name: Adu Matory
-title: Adu Matory | Working in Mental Health
+name: Adu Matory - Data Scientist | Mental Health Advocate | Harm Reductionist | Clinical Researcher | Computational Neuroscience MSc
+title: Adu Matory | Translational Mental Health Reseearch
 email: adu.matory@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Data Scientist | Harm Reductionist | Clinical Researcher | Mental Health Advocate | Computational Neuroscience MSc
+    Data Scientist | Mental Health Advocate | Clinical Researcher | Harm Reductionist | Computational Neuroscience MSc
 baseurl: / # the subpath of your site, e.g. /blog
 url: "https://www.adumatory.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: furtherAdu
