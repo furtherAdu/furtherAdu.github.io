@@ -857,7 +857,7 @@ p {
 .hero-section .hero-content h1 {
   font-size: 60px;
   margin-bottom: 35px;
-  color: #0000;
+  color: #00000;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
