@@ -857,7 +857,7 @@ p {
 .hero-section .hero-content h1 {
   font-size: 60px;
   margin-bottom: 35px;
-  color: #00000;
+  color: #0000;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
@@ -1300,6 +1300,7 @@ p {
   transition: transform 0.8s;
   transform-style: preserve-3d;
   box-sizing: border-box;
+  backface-visibility: hidden;
 }
 
 @media only screen and (max-width: 480px) {

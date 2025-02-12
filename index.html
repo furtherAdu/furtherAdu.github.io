@@ -20,47 +20,19 @@
     <link rel="stylesheet" href="assets/css/animate.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
-    <!-- Matomo -->
-    <script type="text/javascript">
-      var _paq = window._paq = window._paq || [];
-      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-      _paq.push(['trackPageView']);
-      _paq.push(['enableLinkTracking']);
-      _paq.push(['trackVisibleContentImpressions']);
-      _paq.push(['trackEvent', 'Scroll_depth', '98%']);
-      // accurately measure the time spent in the visit; necessary for one-page visits
-      _paq.push(['enableHeartBeatTimer']);
-      (function() {
-        var u="https://adumatory.matomo.cloud/";
-        _paq.push(['setTrackerUrl', u+'matomo.php']);
-        _paq.push(['setSiteId', '1']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.async=true; g.src='//cdn.matomo.cloud/adumatory.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-      })();
-    </script>
-    <!-- End Matomo Code -->
-
   </head>
   <body>
 
     <!--social media bar start -->
     <div class="sr-sharebar sr-sb-vl sr-sb-right">
         <div class="socializer a sr-32px sr-circle sr-opacity sr-vertical sr-icon-white sr-bdr-sm sr-bdr-dark sr-bg-dark sr-pad">
-          <span class="sr-linkedin"><a href="https://linkedin.com/in/adu-matory-b8659887" target="_blank" title="LinkedIn"><i class="fab fa-linkedin matomo_link"></i></a></span>
-          <span class="sr-github"><a href="https://github.com/furtherAdu/" target="_blank" title="Github"><i class="fab fa-github matomo_link"></i></a></span>
-          <span class="sr-google"><a href="https://scholar.google.com/citations?user=QF8qRlcAAAAJ" target="_blank" title="Google"><i class="fab fa-google matomo_link"></i></a></span>
-          <span class="sr-medium"><a href="https://medium.com/@adumatory_66971" target="_blank" title="Medium"><i class="fab fa-medium matomo_link"></i></a></span>
+          <span class="sr-linkedin"><a href="https://linkedin.com/in/adu-matory-b8659887" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a></span>
+          <span class="sr-github"><a href="https://github.com/furtherAdu/" target="_blank" title="Github"><i class="fab fa-github"></i></a></span>
+          <span class="sr-google"><a href="https://scholar.google.com/citations?user=QF8qRlcAAAAJ" target="_blank" title="Google"><i class="fab fa-google"></i></a></span>
+          <span class="sr-medium"><a href="https://medium.com/@adumatory_66971" target="_blank" title="Medium"><i class="fab fa-medium"></i></a></span>
         </div>
     </div>
     <!--social media end-->
-
-    <!-- Matomo Image Tracker-->
-    <noscript>
-      <p>
-        <img referrerpolicy="no-referrer-when-downgrade" src="https://adumatory.matomo.cloud/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />
-      </p>
-    </noscript>
-    <!-- End Matomo -->
 
     <!--[if lte IE 9]>
       <p class="browserupgrade">
@@ -197,13 +169,60 @@
             <div id="servicesCardCol1" class="col-md-6 col-lg-4">
               <div class="flip-card text-center mx-auto">
                 <div class="single-feature-extended">
+                  <div class="flip-card-inner">
+                    <div id="servicesCardFront2" class="flip-card-front rounded shadow-lg p-4 pb-2">
+                      <div class="icon card-img-top mb-0">
+                        <i class="lni lni-display"></i>
+                      </div>
+                      <div class="card-body px-0">
+                        <h3 class="card-title">Software Engineering</h3>
+                        <p class="card-text">Need help implementing your software project?</p>
+                      </div>
+                    </div>
+                    <div id="servicesCardBack2" class="flip-card-back rounded shadow-lg p-4 pb-2">
+                      <div class="icon card-img-top mb-0 flip-card-back-img">
+                        <i class="lni lni-display"></i>
+                      </div>
+                      <div class="card-body px-0">
+                        <p class="card-text">Use my expertise in statistics & ML to build a powerful analytics pipeline.</p>
+                        <div class="row text-center">
+                          <div class="col-sm-5">
+                            <a id="servicesExampleButton2" class="btn btn-outline-primary mt-3 rounded" data-bs-toggle="collapse" data-bs-target="#servicesExample2" aria-pressed="false" aria-expanded="false" aria-controls="servicesExample2">
+                              See an example
+                            </a>
+                          </div>
+                          <div class="col-sm-7">
+                            <a href="https://calendly.com/adumatory/30min"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              class="btn btn-outline-secondary mt-3 rounded"
+                              onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Software Engineering']);">Schedule a consultation</a>
+                          </div>
+                          <div class="col mt-3">
+                            <div id="servicesExample2" class="collapse">
+                              <div class="card-body justify-content-center text-start py-1 px-0">
+                                Organization X is creating new software to improve users' mental health and wants help extracting informative cognitive indicators. After a consultation where Organization X clarifies aims and technical requirements, Adú creates a software package that analyzes the data and outputs features in a predefined format. Adú transfers ownership of the package to Organization X and provides guidance for how to integrate it into their software.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--card #2-->
+            <div id="servicesCardCol2" class="col-md-6 col-lg-4">
+              <div class="flip-card text-center mx-auto">
+                <div class="single-feature-extended">
                   <div class="flip-card-inner opacity-100">
                     <div id="servicesCardFront1" class="flip-card-front rounded shadow-lg p-4 pb-2">
                       <div class="icon card-img-top mb-0">
                         <i class="lni lni-stats-up"></i>
                       </div>
                       <div class="card-body px-0">
-                        <h3 class="card-title">Data Analysis</h3>
+                        <h3 class="card-title">Data Analytics</h3>
                         <p class="card-text">Hunting for key insights in your organization's data?</p>
                       </div>
                     </div>
@@ -229,54 +248,7 @@
                           <div class="col mt-3">
                             <div id="servicesExample1" class="collapse">
                               <div class="card-body justify-content-center text-start py-1 px-0">
-                                Organization X wants to better understand people who use its services but requires analytic expertise to identify user sub-groups. After a consultation, a data sharing agreement is set up and Adú applies analyses to Organization X's data. Adú creates a report and presents findings to Organization X, which then uses to support decision-making.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--card #2-->
-            <div id="servicesCardCol2" class="col-md-6 col-lg-4">
-              <div class="flip-card text-center mx-auto">
-                <div class="single-feature-extended">
-                  <div class="flip-card-inner">
-                    <div id="servicesCardFront2" class="flip-card-front rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0">
-                        <i class="lni lni-display"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <h3 class="card-title">Software Engineering</h3>
-                        <p class="card-text">Need help implementing your software project?</p>
-                      </div>
-                    </div>
-                    <div id="servicesCardBack2" class="flip-card-back rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0 flip-card-back-img">
-                        <i class="lni lni-display"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <p class="card-text">Use my expertise in statistics & ML to build a powerful analytics pipeline.</p>
-                        <div class="row text-center">
-                          <div class="col-sm-5">
-                            <a id="servicesExampleButton2" class="btn btn-outline-primary mt-3 rounded" data-bs-toggle="collapse" data-bs-target="#servicesExample2" aria-pressed="false" aria-expanded="false" aria-controls="servicesExample2">
-                              See an example
-                            </a>
-                          </div>
-                          <div class="col-sm-7">
-                            <a href="https://calendly.com/adumatory/30min"
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             class="btn btn-outline-secondary mt-3 rounded"
-                             onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Software Engineering']);">Schedule a consultation</a>
-                          </div>
-                          <div class="col mt-3">
-                            <div id="servicesExample2" class="collapse">
-                              <div class="card-body justify-content-center text-start py-1 px-0">
-                                Organization X is creating new software to improve users' mental health and wants help extracting informative cognitive indicators. After a consultation where Organization X clarifies aims and technical requirements, Adú creates a software package that analyzes the data and outputs features in a predefined format. Adú transfers ownership of the package to Organization X and provides guidance for how to integrate it into their software.
+                                Organization X wants to better understand people who use its services but requires analytic expertise to identify user subgroups. After a consultation, a data sharing agreement is set up and Adú applies analyses to Organization X's data. Adú creates a report and presents findings to Organization X, which then uses to support decision-making.
                               </div>
                             </div>
                           </div>
@@ -325,146 +297,6 @@
                             <div id="servicesExample3" class="collapse">
                               <div class="card-body justify-content-center text-start py-1 px-0">
                                 Organization X wants to generate reports more efficiently but seeks guidance on how to better leverage its disparate data sources. After a consultation, Adú interviews key stakeholders to identify how they need to interact with Organization X's data then delivers a diagram of data processes as well as recommendations for tools and rules that Organization X can implement to improve its data integrity and management.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--card #4-->
-            <div id="servicesCardCol4" class="col-md-6 col-lg-4">
-              <div class="flip-card text-center mx-auto">
-                <div class="single-feature-extended">
-                  <div class="flip-card-inner">
-                    <div id="servicesCardFront4" class="flip-card-front rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0">
-                        <i class="lni lni-invention"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <h3 class="card-title">Study Design</h3>
-                        <p class="card-text">Want to properly explore your latest hypothesis?</p>
-                      </div>
-                    </div>
-                    <div id="servicesCardBack4" class="flip-card-back rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0 flip-card-back-img">
-                        <i class="lni lni-invention"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <p class="card-text">I'll help you formulate a study that's feasible, ethical, and worth it.</p>
-                        <div class="row text-center">
-                          <div class="col-sm-5">
-                            <a id="servicesExampleButton4" class="btn btn-outline-primary mt-3 rounded" data-bs-toggle="collapse" data-bs-target="#servicesExample4" aria-pressed="false" aria-expanded="false" aria-controls="servicesExample4">
-                              See an example
-                            </a>
-                          </div>
-                          <div class="col-sm-7">
-                            <a href="https://calendly.com/adumatory/30min"
-                               target="_blank"
-                               rel="noopener noreferrer" class="btn btn-outline-secondary mt-3 rounded"
-                               onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Study Design']);">Schedule a consultation</a>
-                          </div>
-                          <div class="col mt-3">
-                            <div id="servicesExample4" class="collapse">
-                              <div class="card-body justify-content-center text-start py-1 px-0">
-                                Organization X wants to understand how its users interact with its services but seeks expertise in designing and executing experiments. After a consultation where Organization X provides context, Adú creates a bespoke experimental design, including guidance on informative data to collect and statistical analyses, that Organization X can use to begin executing.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--card #5-->
-            <div id="servicesCardCol5" class="col-md-6 col-lg-4">
-              <div class="flip-card text-center mx-auto">
-                <div class="single-feature-extended">
-                  <div class="flip-card-inner">
-                    <div id="servicesCardFront5" class="flip-card-front rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0">
-                        <i class="lni lni-pencil-alt"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <h3 class="card-title">Manuscript Editing</h3>
-                        <p class="card-text">Need an extra hand with your upcoming article submission?</p>
-                      </div>
-                    </div>
-                    <div id="servicesCardBack5" class="flip-card-back rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0 flip-card-back-img">
-                        <i class="lni lni-pencil-alt"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <p class="card-text">I can help you proofread, format and turn your scientific prose into poetry.</p>
-                        <div class="row text-center">
-                          <div class="col-sm-5">
-                            <a id="servicesExampleButton5" class="btn btn-outline-primary mt-3 rounded" data-bs-toggle="collapse" data-bs-target="#servicesExample5" aria-pressed="false" aria-expanded="false" aria-controls="servicesExample5">
-                              See an example
-                            </a>
-                          </div>
-                          <div class="col-sm-7">
-                            <a href="https://calendly.com/adumatory/30min"
-                               target="_blank"
-                               rel="noopener noreferrer"
-                               class="btn btn-outline-secondary mt-3 rounded"
-                               onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Manuscript Editing']);">Schedule a consultation</a>
-                          </div>
-                          <div class="col mt-3">
-                            <div id="servicesExample5" class="collapse">
-                              <div class="card-body justify-content-center text-start py-1 px-0">
-                                Before Author X submits their scientific paper to a journal, they want to ensure their manuscript is mistake-free and easily digestible in English. After a consultation where Author X provides more information, Adú proofreads the manuscript, suggesting edits for grammar, style, and content. Adú sends the marked-up manuscript to Author X, who can then make corrections before journal submission.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--card #6-->
-            <div id="servicesCardCol6" class="col-md-6 col-lg-4" style="margin: 0 auto;">
-              <div class="flip-card text-center mx-auto">
-                <div class="single-feature-extended">
-                  <div class="flip-card-inner">
-                    <div id="servicesCardFront6" class="flip-card-front rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0">
-                        <i class="lni lni-microphone"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <h3 class="card-title">Public Speaking</h3>
-                        <p class="card-text">Want an expert in computational methods for mental health research to speak at your next event?</p>
-                      </div>
-                    </div>
-                    <div id="servicesCardBack6" class="flip-card-back rounded shadow-lg p-4 pb-2">
-                      <div class="icon card-img-top mb-0 flip-card-back-img">
-                        <i class="lni lni-microphone"></i>
-                      </div>
-                      <div class="card-body px-0">
-                        <p class="card-text">I'm available for conferences, retreats, workshops, and more.</p>
-                        <div class="row text-center">
-                          <div class="col-sm-5">
-                            <a id="servicesExampleButton6" class="btn btn-outline-primary mt-3 rounded" data-bs-toggle="collapse" data-bs-target="#servicesExample6" aria-pressed="false" aria-expanded="false" aria-controls="servicesExample6">
-                              See an example
-                            </a>
-                          </div>
-                          <div class="col-sm-7">
-                            <a href="https://calendly.com/adumatory/30min"
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             class="btn btn-outline-secondary mt-3 rounded"
-                             onclick="_paq.push(['trackEvent', 'Contact', 'Reach Out Click', 'Public Speaking']);">Schedule a consultation</a>
-                          </div>
-                          <div class="col mt-3">
-                            <div id="servicesExample6" class="collapse">
-                              <div class="card-body justify-content-center text-start py-1 px-0">
-                                Organization X is hosting a training for their team and seeks an expert to give an intro to digital health, psychedelics in healthcare, or precision psychiatry. After a consultation to establish learning objectives, Adú creates tailored presentation to deliver at Organization X's upcoming event.
                               </div>
                             </div>
                           </div>
@@ -975,7 +807,7 @@
                   href="assets/CV/Matory_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="main-btn btn-hover border-btn wow fadeInUp matomo_download"
+                  class="main-btn btn-hover border-btn wow fadeInUp"
                   data-wow-delay=".4s"
                   >Discover More
               </a>
